@@ -1,8 +1,8 @@
 from ..models.dnd_class import Class
 from typing import List
 
-from data.mappers.mapper import Mapper
-from ..models.subclass import Subclass
+from src.data.mappers.mapper import Mapper
+from src.data.models.subclass import Subclass
 
 
 class ClassMapper(Mapper[Class]):

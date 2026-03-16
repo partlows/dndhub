@@ -4,12 +4,12 @@ import tkinter.font as tkFont
 import tkinter.ttk as ttk
 import tkinter as tk
 from tkinter import Frame, Tk
-from ui.globals import APP_FONT, FontSize
-from ui.widgets import Button
+from src.ui.globals import APP_FONT, FontSize
+from src.ui.widgets import Button
 
 if TYPE_CHECKING:
-    from app.dndhub import DnDHub
-    from app.controllers.home_controller import HomeController
+    from src.app.dndhub import DnDHub
+    from src.app.controllers.home_controller import HomeController
 
 
 class Home(Frame):

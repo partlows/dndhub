@@ -1,6 +1,6 @@
 import tkinter as tk
 
-from ui.globals import APP_FONT, FontSize
+from src.ui.globals import APP_FONT, FontSize
 import tkinter.font as tkFont
 
 

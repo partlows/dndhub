@@ -1,6 +1,6 @@
-from app.controllers.character_info_controller import CharacterInfoController
-from app.controllers.dndhub_controller import DnDHubController
-from ui.frames.home import Home
+from ..controllers.character_info_controller import CharacterInfoController
+from ..controllers.dndhub_controller import DnDHubController
+from src.ui.frames.home import Home
 
 
 class HomeController(DnDHubController):

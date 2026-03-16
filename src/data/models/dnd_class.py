@@ -1,7 +1,7 @@
 from typing import List
 
-from data.models.die import Die
-from data.models.subclass import Subclass
+from src.data.models.die import Die
+from src.data.models.subclass import Subclass
 
 
 class Class:

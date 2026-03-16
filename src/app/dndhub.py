@@ -1,8 +1,8 @@
 from tkinter import Tk
 
-from controllers.home_controller import HomeController
-from data.dndhub_database.dndhub_database_factory import DnDHubDatabaseFactory
-from data.models.character import Character
+from src.app.controllers.home_controller import HomeController
+from src.data.dndhub_database.dndhub_database_factory import DnDHubDatabaseFactory
+from src.data.models.character import Character
 
 
 class DnDHub(Tk):
@@ -24,9 +24,3 @@ class DnDHub(Tk):
     @staticmethod
     def destroy_frame(frame_to_destroy):
         frame_to_destroy.destroy()
-
-
-if __name__ == '__main__':
-    if __name__ == "__main__":
-        app = DnDHub()
-        app.mainloop()

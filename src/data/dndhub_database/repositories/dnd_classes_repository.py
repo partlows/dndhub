@@ -1,7 +1,7 @@
 import sqlite3
 
-from data.dndhub_database.repositories.repository import Repository
-from data.mappers.dnd_class_mapper import ClassMapper
+from src.data.dndhub_database.repositories.repository import Repository
+from src.data.mappers.dnd_class_mapper import ClassMapper
 
 
 class ClassesRepository(Repository):

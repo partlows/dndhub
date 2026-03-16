@@ -1,7 +1,7 @@
 from typing import List
 
-from data.mappers.mapper import Mapper
-from data.models.subclass import Subclass
+from src.data.mappers.mapper import Mapper
+from src.data.models.subclass import Subclass
 
 
 class SubclassesMapper(Mapper[Subclass]):

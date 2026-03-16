@@ -2,7 +2,7 @@ import pathlib
 import re
 import sqlite3
 
-from data.dndhub_database.repositories.dnd_classes_repository import ClassesRepository
+from src.data.dndhub_database.repositories.dnd_classes_repository import ClassesRepository
 
 
 class DnDHubDatabaseFactory:

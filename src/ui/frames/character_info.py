@@ -2,8 +2,8 @@ import tkinter.ttk as ttk
 import tkinter as tk
 import tkinter.font as tkFont
 
-from ui.globals import APP_FONT, FontSize
-from ui.widgets import Button
+from src.ui.globals import APP_FONT, FontSize
+from src.ui.widgets import Button
 from tkinter import StringVar
 
 

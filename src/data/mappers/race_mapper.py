@@ -1,5 +1,5 @@
-from data.mappers.mapper import Mapper
-from data.models.race import Race
+from src.data.mappers.mapper import Mapper
+from src.data.models.race import Race
 
 
 class RaceMapper(Mapper[Race]):
